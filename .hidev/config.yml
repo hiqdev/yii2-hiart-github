@@ -4,7 +4,7 @@ package:
     title:          GitHub API implementation for yii2-hiart
     headline:       Yii2 HiArt Github
     keywords:       yii2, hiart, github
-    namespace:      hiqdev\hiart\guzzle
+    namespace:      hiqdev\hiart\github
     description:    |
         This package provides [GitHub API](https://developer.github.com/v3/) implementation
         for [yii2-hiart](https://github.com/hiqdev/yii2-hiart).

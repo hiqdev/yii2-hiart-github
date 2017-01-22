@@ -51,7 +51,7 @@
     },
     "autoload": {
         "psr-4": {
-            "hiqdev\\hiart\\guzzle\\": "src"
+            "hiqdev\\hiart\\github\\": "src"
         }
     },
     "repositories": [
