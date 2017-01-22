@@ -20,4 +20,6 @@ use hiqdev\hiart\AbstractConnection;
 class Connection extends AbstractConnection
 {
     public $queryBuilderClass = QueryBuilder::class;
+
+    public $baseUri = 'https://api.github.com/';
 }
