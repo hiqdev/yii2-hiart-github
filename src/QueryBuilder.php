@@ -10,13 +10,11 @@
 
 namespace hiqdev\hiart\github;
 
-use hiqdev\hiart\AbstractQueryBuilder;
-
 /**
  * GitHub API query builder.
  *
  * @author Andrii Vasyliev <sol@hiqdev.com>
  */
-class QueryBuilder extends AbstractQueryBuilder
+class QueryBuilder extends \hiqdev\hiart\rest\QueryBuilder
 {
 }

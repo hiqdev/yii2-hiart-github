@@ -16,6 +16,7 @@ class RepoTest extends \PHPUnit_Framework_TestCase
 {
     public function testFind()
     {
-        $query = Repo::find();
+        $query = Repo::find()->where(['organization' => 'hiqdev']);
+        $models = $query->all();
     }
 }
