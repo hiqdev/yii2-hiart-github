@@ -10,14 +10,12 @@
 
 namespace hiqdev\hiart\github;
 
-use hiqdev\hiart\AbstractConnection;
-
 /**
  * GitHub API implementation.
  *
  * @author Andrii Vasyliev <sol@hiqdev.com>
  */
-class Connection extends AbstractConnection
+class Connection extends \hiqdev\hiart\rest\Connection
 {
     public $queryBuilderClass = QueryBuilder::class;
 
