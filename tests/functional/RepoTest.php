@@ -14,9 +14,15 @@ use hiqdev\hiart\github\models\Repo;
 
 class RepoTest extends \PHPUnit_Framework_TestCase
 {
-    public function testFind()
+    public function testFindOrganization()
     {
         $query = Repo::find()->where(['organization' => 'hiqdev']);
+        $models = $query->all();
+    }
+
+    public function testFindUser()
+    {
+        $query = Repo::find()->where(['user' => 'hiqsol']);
         $models = $query->all();
     }
 }
