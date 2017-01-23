@@ -11,17 +11,14 @@
 namespace hiqdev\hiart\github;
 
 /**
- * GitHub API implementation.
+ * GitHub API ActiveRecord.
  *
  * @author Andrii Vasyliev <sol@hiqdev.com>
  */
-class Connection extends \hiqdev\hiart\rest\Connection
+class ActiveRecord extends \hiqdev\hiart\ActiveRecord
 {
-    public $queryBuilderClass = QueryBuilder::class;
-
-    public $baseUri = 'https://api.github.com/';
-
-    public static $dbname = 'github';
-
-    public $name = 'github';
+    public static function getDb()
+    {
+        return Connection::getDb();
+    }
 }

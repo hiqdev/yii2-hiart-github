@@ -10,10 +10,17 @@
 
 namespace hiqdev\hiart\github\models;
 
+use hiqdev\hiart\github\ActiveRecord;
 use hiqdev\hiart\Query;
 use hiqdev\hiart\QueryBuilderInterface;
 
-class Repo extends \hiqdev\hiart\ActiveRecord
+/**
+ * GitHub repository.
+ * See https://developer.github.com/v3/repos/
+ *
+ * @author Andrii Vasyliev <sol@hiqdev.com>
+ */
+class Repo extends ActiveRecord
 {
     public function rules()
     {

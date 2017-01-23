@@ -54,6 +54,13 @@
             "hiqdev\\hiart\\github\\": "src"
         }
     },
+    "extra": {
+        "config-plugin": {
+            "common": "src/config/common.php",
+            "hisite": "src/config/common.php",
+            "hidev": "src/config/common.php"
+        }
+    },
     "repositories": [
         {
             "type": "composer",
