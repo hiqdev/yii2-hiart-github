@@ -46,6 +46,7 @@
         "hiqdev/yii2-hiart": "<2.0 || dev-master"
     },
     "require-dev": {
+        "yiisoft/yii2": "dev-master",
         "hiqdev/hidev-php": "<2.0 || dev-master",
         "hiqdev/hidev-hiqdev": "<2.0 || dev-master"
     },
