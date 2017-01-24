@@ -11,7 +11,7 @@ return empty($params['github.enabled']) ? [] : [
     'container' => [
         'singletons' => [
             \hiqdev\hiart\github\ConnectionInterface::class => function () {
-                return Yii::$app->get($params['github.dbname']);
+                return Yii::$app->get(Yii::$app->params['github.dbname']);
             },
         ],
     ],
