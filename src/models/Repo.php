@@ -16,7 +16,7 @@ use hiqdev\hiart\QueryBuilderInterface;
 
 /**
  * GitHub repository.
- * See https://developer.github.com/v3/repos/
+ * See [documentation](https://developer.github.com/v3/repos/).
  *
  * @author Andrii Vasyliev <sol@hiqdev.com>
  */
