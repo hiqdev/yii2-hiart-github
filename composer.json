@@ -56,6 +56,7 @@
     },
     "extra": {
         "config-plugin": {
+            "params": "src/config/params.php",
             "common": "src/config/common.php",
             "hisite": "src/config/common.php",
             "hidev": "src/config/common.php"

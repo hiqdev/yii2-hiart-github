@@ -1,9 +1,18 @@
 <?php
 
-return [
+return empty($params['github.enabled']) ? [] : [
     'components' => [
-        'github' => [
+        $params['github.dbname'] => array_filter([
             'class' => \hiqdev\hiart\github\Connection::class,
+            'name' => $params['github.dbname'],
+            'requestClass' => $params['github.requestClass'] ?: $params['hiart.requestClass'],
+        ]),
+    ],
+    'container' => [
+        'singletons' => [
+            \hiqdev\hiart\github\ConnectionInterface::class => function () {
+                return Yii::$app->get($params['github.dbname']);
+            },
         ],
     ],
 ];

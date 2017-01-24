@@ -10,12 +10,14 @@
 
 namespace hiqdev\hiart\github;
 
+use Yii;
+
 /**
  * GitHub API implementation.
  *
  * @author Andrii Vasyliev <sol@hiqdev.com>
  */
-class Connection extends \hiqdev\hiart\rest\Connection
+class Connection extends \hiqdev\hiart\rest\Connection implements ConnectionInterface
 {
     public $queryBuilderClass = QueryBuilder::class;
 
@@ -24,4 +26,9 @@ class Connection extends \hiqdev\hiart\rest\Connection
     public static $dbname = 'github';
 
     public $name = 'github';
+
+    public static function getDb($dbname = null)
+    {
+        return $dbname ? Yii::$app->get($dbname) : Yii::$container->get(ConnectionInterface::class);
+    }
 }
