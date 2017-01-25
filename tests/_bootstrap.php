@@ -13,7 +13,10 @@ error_reporting(-1);
 require_once __DIR__ . '/../vendor/autoload.php';
 require_once __DIR__ . '/../vendor/yiisoft/yii2/Yii.php';
 
-Yii::$app = new \yii\console\Application(array_merge([
+use yii\console\Application;
+use hiqdev\composer\config\Builder;
+
+Yii::$app = new Application(array_merge([
     'id' => 'hiart-github',
     'basePath' => __DIR__,
-], require \hiqdev\composer\config\Builder::path('common')));
+], require Builder::path('hidev')));
