@@ -10,6 +10,7 @@
 
 return [
     'github.enabled'        => true,
-    'github.dbname'         => 'github',
     'github.requestClass'   => null, /// hiart.requestClass will be used
+    'github.dbname'         => 'github',
+    'github.auth'           => [],
 ];

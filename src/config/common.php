@@ -12,8 +12,9 @@ return empty($params['github.enabled']) ? [] : [
     'components' => [
         $params['github.dbname'] => array_filter([
             'class' => \hiqdev\hiart\github\Connection::class,
-            'name' => $params['github.dbname'],
             'requestClass' => $params['github.requestClass'] ?: $params['hiart.requestClass'],
+            'name' => $params['github.dbname'],
+            'auth' => $params['github.auth'],
         ]),
     ],
     'container' => [
