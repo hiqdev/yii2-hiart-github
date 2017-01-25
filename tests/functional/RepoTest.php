@@ -18,11 +18,15 @@ class RepoTest extends \PHPUnit_Framework_TestCase
     {
         $query = Repo::find()->where(['organization' => 'hiqdev']);
         $models = $query->all();
+
+        $this->assertGreaterThan(1, count($models));
     }
 
     public function testFindUser()
     {
         $query = Repo::find()->where(['user' => 'hiqsol']);
         $models = $query->all();
+
+        $this->assertGreaterThan(1, count($models));
     }
 }
