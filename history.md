@@ -1,8 +1,10 @@
-## [Under development]
+# hiqdev/yii2-hiart-github
 
-## [Under development]
+## [0.0.1] - 2017-01-25
 
 - Added basics
+    - [7ece5b7] 2017-01-25 improved getting configuration in tests [@hiqsol]
+    - [9b9d2a6] 2017-01-24 fixed yii2-hiart version requirements [@hiqsol]
     - [95ec62d] 2017-01-24 csfixed [@hiqsol]
     - [8269f90] 2017-01-24 fixed passing github.dbname [@hiqsol]
     - [ab8a72b] 2017-01-24 test with latest yii2 [@hiqsol]
@@ -43,3 +45,6 @@
 [aa0dca7]: https://github.com/hiqdev/yii2-hiart-github/commit/aa0dca7
 [27992b6]: https://github.com/hiqdev/yii2-hiart-github/commit/27992b6
 [Under development]: https://github.com/hiqdev/yii2-hiart-github/releases
+[7ece5b7]: https://github.com/hiqdev/yii2-hiart-github/commit/7ece5b7
+[9b9d2a6]: https://github.com/hiqdev/yii2-hiart-github/commit/9b9d2a6
+[0.0.1]: https://github.com/hiqdev/yii2-hiart-github/releases/tag/0.0.1

@@ -1,6 +1,6 @@
-## [Under development]
+# hiqdev/yii2-hiart-github
 
-## [Under development]
+## [0.0.1] - 2017-01-25
 
 - Added basics ([@hiqsol])
 
@@ -15,3 +15,4 @@
 [@BladeRoot]: https://github.com/BladeRoot
 [bladeroot@gmail.com]: https://github.com/BladeRoot
 [Under development]: https://github.com/hiqdev/yii2-hiart-github/releases
+[0.0.1]: https://github.com/hiqdev/yii2-hiart-github/releases/tag/0.0.1
