@@ -53,7 +53,8 @@
     },
     "autoload": {
         "psr-4": {
-            "hiqdev\\hiart\\github\\": "src"
+            "hiqdev\\hiart\\github\\": "src",
+            "hiqdev\\hiart\\github\\tests\\": "tests"
         }
     },
     "extra": {
