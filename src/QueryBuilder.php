@@ -10,11 +10,32 @@
 
 namespace hiqdev\hiart\github;
 
+use hiqdev\hiart\Query;
+
 /**
- * GitHub API query builder.
+ * Query builder for GitHub API.
  *
  * @author Andrii Vasyliev <sol@hiqdev.com>
  */
 class QueryBuilder extends \hiqdev\hiart\rest\QueryBuilder
 {
+    public function buildUri(Query $query)
+    {
+        $from = $query->from . 's';
+
+        $prefix = $this->buildPrefix($query);
+
+        return ($prefix ? $prefix . '/' : '') . $from;
+    }
+
+    public function buildPrefix(Query $query)
+    {
+        if ($query->from === 'repo') {
+            if (!empty($query->where['organization'])) {
+                return 'orgs/' . $query->where['organization'];
+            } elseif (!empty($query->where['user'])) {
+                return 'users/' . $query->where['user'];
+            }
+        }
+    }
 }
