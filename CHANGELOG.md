@@ -1,5 +1,10 @@
 # hiqdev/yii2-hiart-github
 
+## [0.1.0] - 2017-02-08
+
+- Improved tests ([@hiqsol], [@SilverFire])
+- Improved query building with `QueryBuilder::buildPrefix` ([@hiqsol])
+
 ## [0.0.1] - 2017-01-25
 
 - Added basics ([@hiqsol])
@@ -14,5 +19,6 @@
 [andreyklochok@gmail.com]: https://github.com/tafid
 [@BladeRoot]: https://github.com/BladeRoot
 [bladeroot@gmail.com]: https://github.com/BladeRoot
-[Under development]: https://github.com/hiqdev/yii2-hiart-github/releases
+[Under development]: https://github.com/hiqdev/yii2-hiart-github/compare/0.0.1...HEAD
 [0.0.1]: https://github.com/hiqdev/yii2-hiart-github/releases/tag/0.0.1
+[0.1.0]: https://github.com/hiqdev/yii2-hiart-github/compare/0.0.1...0.1.0

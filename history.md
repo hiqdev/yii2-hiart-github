@@ -1,5 +1,19 @@
 # hiqdev/yii2-hiart-github
 
+## [0.1.0] - 2017-02-08
+
+- Improved tests
+    - [9562ad0] 2017-02-08 improved `Connection::getDb` used parent [@hiqsol]
+    - [08b58f4] 2017-01-28 removed CurlRepoTest [@hiqsol]
+    - [4ae4bdc] 2017-01-27 added CurlRepoTest [@hiqsol]
+    - [e4d437b] 2017-01-27 added tests namespace [@hiqsol]
+    - [a1dcb31] 2017-01-25 Removed redundant dependency [@SilverFire]
+    - [9c9d959] 2017-01-25 Added phpunit/phpunit requirement [@SilverFire]
+    - [756a0cc] 2017-01-25 Enhanced tests [@SilverFire]
+    - [4a53247] 2017-01-25 added config for tests with token [@hiqsol]
+- Improved query building with `QueryBuilder::buildPrefix`
+    - [8247abd] 2017-01-27 moved prefix query building to QueryBuilder [@hiqsol]
+
 ## [0.0.1] - 2017-01-25
 
 - Added basics
@@ -44,7 +58,17 @@
 [4981db1]: https://github.com/hiqdev/yii2-hiart-github/commit/4981db1
 [aa0dca7]: https://github.com/hiqdev/yii2-hiart-github/commit/aa0dca7
 [27992b6]: https://github.com/hiqdev/yii2-hiart-github/commit/27992b6
-[Under development]: https://github.com/hiqdev/yii2-hiart-github/releases
+[Under development]: https://github.com/hiqdev/yii2-hiart-github/compare/0.0.1...HEAD
 [7ece5b7]: https://github.com/hiqdev/yii2-hiart-github/commit/7ece5b7
 [9b9d2a6]: https://github.com/hiqdev/yii2-hiart-github/commit/9b9d2a6
 [0.0.1]: https://github.com/hiqdev/yii2-hiart-github/releases/tag/0.0.1
+[9562ad0]: https://github.com/hiqdev/yii2-hiart-github/commit/9562ad0
+[08b58f4]: https://github.com/hiqdev/yii2-hiart-github/commit/08b58f4
+[4ae4bdc]: https://github.com/hiqdev/yii2-hiart-github/commit/4ae4bdc
+[e4d437b]: https://github.com/hiqdev/yii2-hiart-github/commit/e4d437b
+[8247abd]: https://github.com/hiqdev/yii2-hiart-github/commit/8247abd
+[a1dcb31]: https://github.com/hiqdev/yii2-hiart-github/commit/a1dcb31
+[9c9d959]: https://github.com/hiqdev/yii2-hiart-github/commit/9c9d959
+[756a0cc]: https://github.com/hiqdev/yii2-hiart-github/commit/756a0cc
+[4a53247]: https://github.com/hiqdev/yii2-hiart-github/commit/4a53247
+[0.1.0]: https://github.com/hiqdev/yii2-hiart-github/compare/0.0.1...0.1.0
