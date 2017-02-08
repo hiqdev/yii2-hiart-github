@@ -27,8 +27,8 @@ class Connection extends \hiqdev\hiart\rest\Connection implements ConnectionInte
 
     public $name = 'github';
 
-    public static function getDb($dbname = null)
+    public static function getDb($name = null, $class = ConnectionInterface::class)
     {
-        return $dbname ? Yii::$app->get($dbname) : Yii::$container->get(ConnectionInterface::class);
+        return parent::getDb($name, $class);
     }
 }
