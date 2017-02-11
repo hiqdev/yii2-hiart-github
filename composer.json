@@ -43,11 +43,11 @@
         }
     ],
     "require": {
-        "hiqdev/yii2-hiart": "<2.0 || *@dev",
-        "phpunit/phpunit": "~5.7"
+        "hiqdev/yii2-hiart": "<2.0 || *@dev"
     },
     "require-dev": {
         "yiisoft/yii2": "dev-master",
+        "phpunit/phpunit": "~5.7",
         "hiqdev/hidev-php": "<2.0 || dev-master",
         "hiqdev/hidev-hiqdev": "<2.0 || dev-master"
     },
