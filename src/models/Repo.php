@@ -25,6 +25,7 @@ class Repo extends ActiveRecord
         return [
             ['id', 'integer'],
             ['name', 'string'],
+            ['description', 'string'],
         ];
     }
 }
