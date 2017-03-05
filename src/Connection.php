@@ -10,8 +10,6 @@
 
 namespace hiqdev\hiart\github;
 
-use Yii;
-
 /**
  * GitHub API implementation.
  *
