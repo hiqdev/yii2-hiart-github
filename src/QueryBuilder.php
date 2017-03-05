@@ -32,9 +32,15 @@ class QueryBuilder extends \hiqdev\hiart\rest\QueryBuilder
     {
         if ($query->from === 'repo') {
             if (!empty($query->where['organization'])) {
-                return 'orgs/' . $query->where['organization'];
+                $organization = $query->where['organization'];
+                unset($query->where['organization']);
+
+                return "orgs/$organization";
             } elseif (!empty($query->where['user'])) {
-                return 'users/' . $query->where['user'];
+                $user = $query->where['user'];
+                unset($query->where['user']);
+
+                return "users/$user";
             }
         }
     }
