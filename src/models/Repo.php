@@ -26,6 +26,11 @@ class Repo extends ActiveRecord
             ['id', 'integer'],
             ['name', 'string'],
             ['description', 'string'],
+            ['homepage', 'string'],
+            ['forks_count', 'number'],
+            ['stargazers_count', 'number'],
+            ['watchers_count', 'number'],
+            ['open_issues_count', 'number'],
         ];
     }
 }
