@@ -1,5 +1,17 @@
 # hiqdev/yii2-hiart-github
 
+## [0.2.0] - 2017-04-15
+
+- Switched to PHPUnit 6
+    - [81b6ad2] 2017-04-15 removed require-dev phpunit [@hiqsol]
+    - [36c0b27] 2017-04-15 switched to phpunit 6 [@hiqsol]
+    - [76dace1] 2017-02-11 moved phpunit back to require-dev in composer.json [@hiqsol]
+- Added more fields to `Repo` model
+    - [bfac0bd] 2017-03-10 added more fields to Repo model: `homepage`, `forks_count`, `stargazers_count`, `watchers_count`, `open_issues_count` [@hiqsol]
+    - [b04fa8f] 2017-03-05 csfixed [@hiqsol]
+    - [6ea6285] 2017-03-05 added description into Repo model [@hiqsol]
+    - [fb26983] 2017-03-05 improved buildPrefix a bit [@hiqsol]
+
 ## [0.1.0] - 2017-02-08
 
 - Improved tests
@@ -58,7 +70,7 @@
 [4981db1]: https://github.com/hiqdev/yii2-hiart-github/commit/4981db1
 [aa0dca7]: https://github.com/hiqdev/yii2-hiart-github/commit/aa0dca7
 [27992b6]: https://github.com/hiqdev/yii2-hiart-github/commit/27992b6
-[Under development]: https://github.com/hiqdev/yii2-hiart-github/compare/0.0.1...HEAD
+[Under development]: https://github.com/hiqdev/yii2-hiart-github/compare/0.1.0...HEAD
 [7ece5b7]: https://github.com/hiqdev/yii2-hiart-github/commit/7ece5b7
 [9b9d2a6]: https://github.com/hiqdev/yii2-hiart-github/commit/9b9d2a6
 [0.0.1]: https://github.com/hiqdev/yii2-hiart-github/releases/tag/0.0.1
@@ -72,3 +84,11 @@
 [756a0cc]: https://github.com/hiqdev/yii2-hiart-github/commit/756a0cc
 [4a53247]: https://github.com/hiqdev/yii2-hiart-github/commit/4a53247
 [0.1.0]: https://github.com/hiqdev/yii2-hiart-github/compare/0.0.1...0.1.0
+[81b6ad2]: https://github.com/hiqdev/yii2-hiart-github/commit/81b6ad2
+[36c0b27]: https://github.com/hiqdev/yii2-hiart-github/commit/36c0b27
+[bfac0bd]: https://github.com/hiqdev/yii2-hiart-github/commit/bfac0bd
+[b04fa8f]: https://github.com/hiqdev/yii2-hiart-github/commit/b04fa8f
+[6ea6285]: https://github.com/hiqdev/yii2-hiart-github/commit/6ea6285
+[fb26983]: https://github.com/hiqdev/yii2-hiart-github/commit/fb26983
+[76dace1]: https://github.com/hiqdev/yii2-hiart-github/commit/76dace1
+[0.2.0]: https://github.com/hiqdev/yii2-hiart-github/compare/0.1.0...0.2.0

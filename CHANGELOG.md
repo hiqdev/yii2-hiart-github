@@ -1,5 +1,10 @@
 # hiqdev/yii2-hiart-github
 
+## [0.2.0] - 2017-04-15
+
+- Switched to PHPUnit 6 ([@hiqsol])
+- Added more fields to `Repo` model ([@hiqsol])
+
 ## [0.1.0] - 2017-02-08
 
 - Improved tests ([@hiqsol], [@SilverFire])
@@ -19,6 +24,7 @@
 [andreyklochok@gmail.com]: https://github.com/tafid
 [@BladeRoot]: https://github.com/BladeRoot
 [bladeroot@gmail.com]: https://github.com/BladeRoot
-[Under development]: https://github.com/hiqdev/yii2-hiart-github/compare/0.0.1...HEAD
+[Under development]: https://github.com/hiqdev/yii2-hiart-github/compare/0.1.0...HEAD
 [0.0.1]: https://github.com/hiqdev/yii2-hiart-github/releases/tag/0.0.1
 [0.1.0]: https://github.com/hiqdev/yii2-hiart-github/compare/0.0.1...0.1.0
+[0.2.0]: https://github.com/hiqdev/yii2-hiart-github/compare/0.1.0...0.2.0
