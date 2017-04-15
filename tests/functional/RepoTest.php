@@ -12,7 +12,7 @@ namespace hiqdev\hiart\github\tests\functional;
 
 use hiqdev\hiart\github\models\Repo;
 
-class RepoTest extends \PHPUnit_Framework_TestCase
+class RepoTest extends \PHPUnit\Framework\TestCase
 {
     public function testFindByOrganization()
     {
