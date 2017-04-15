@@ -1,5 +1,4 @@
-Yii2 HiArt Github
-=================
+# Yii2 HiArt Github
 
 **GitHub API implementation for yii2-hiart**
 
