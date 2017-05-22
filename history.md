@@ -1,5 +1,13 @@
 # hiqdev/yii2-hiart-github
 
+## [0.2.1] - 2017-05-22
+
+- Renamed component to `hiart-github` <- github
+    - [45ae8e8] 2017-05-22 csfixed [@hiqsol]
+    - [e91d9ec] 2017-05-22 renamed component to `hiart-github` <- github [@hiqsol]
+    - [b7e0540] 2017-05-22 csfixed [@hiqsol]
+    - [c39496c] 2017-05-14 renamed `hidev.yml` [@hiqsol]
+
 ## [0.2.0] - 2017-04-15
 
 - Switched to PHPUnit 6
@@ -70,7 +78,7 @@
 [4981db1]: https://github.com/hiqdev/yii2-hiart-github/commit/4981db1
 [aa0dca7]: https://github.com/hiqdev/yii2-hiart-github/commit/aa0dca7
 [27992b6]: https://github.com/hiqdev/yii2-hiart-github/commit/27992b6
-[Under development]: https://github.com/hiqdev/yii2-hiart-github/compare/0.1.0...HEAD
+[Under development]: https://github.com/hiqdev/yii2-hiart-github/compare/0.2.0...HEAD
 [7ece5b7]: https://github.com/hiqdev/yii2-hiart-github/commit/7ece5b7
 [9b9d2a6]: https://github.com/hiqdev/yii2-hiart-github/commit/9b9d2a6
 [0.0.1]: https://github.com/hiqdev/yii2-hiart-github/releases/tag/0.0.1
@@ -92,3 +100,8 @@
 [fb26983]: https://github.com/hiqdev/yii2-hiart-github/commit/fb26983
 [76dace1]: https://github.com/hiqdev/yii2-hiart-github/commit/76dace1
 [0.2.0]: https://github.com/hiqdev/yii2-hiart-github/compare/0.1.0...0.2.0
+[45ae8e8]: https://github.com/hiqdev/yii2-hiart-github/commit/45ae8e8
+[e91d9ec]: https://github.com/hiqdev/yii2-hiart-github/commit/e91d9ec
+[b7e0540]: https://github.com/hiqdev/yii2-hiart-github/commit/b7e0540
+[c39496c]: https://github.com/hiqdev/yii2-hiart-github/commit/c39496c
+[0.2.1]: https://github.com/hiqdev/yii2-hiart-github/compare/0.2.0...0.2.1
