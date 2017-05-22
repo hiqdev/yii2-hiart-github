@@ -1,6 +1,6 @@
 <?php
 /**
- * GitHub API implementation for yii2-hiart
+ * GitHub API implementation for yii2-hiart.
  *
  * @link      https://github.com/hiqdev/yii2-hiart-github
  * @package   yii2-hiart-github
