@@ -1,6 +1,6 @@
 <?php
 /**
- * GitHub API implementation for yii2-hiart
+ * GitHub API implementation for yii2-hiart.
  *
  * @link      https://github.com/hiqdev/yii2-hiart-github
  * @package   yii2-hiart-github
@@ -9,8 +9,8 @@
  */
 
 return [
-    'github.enabled'        => true,
-    'github.requestClass'   => null, /// hiart.requestClass will be used
-    'github.dbname'         => 'github',
-    'github.auth'           => [],
+    'hiart-github.enabled'        => true,
+    'hiart-github.requestClass'   => null, /// hiart.requestClass will be used
+    'hiart-github.dbname'         => 'hiart-github',
+    'hiart-github.auth'           => [],
 ];
