@@ -58,11 +58,11 @@
     },
     "extra": {
         "config-plugin": {
-            "params": "src/config/params.php",
-            "common": "src/config/common.php",
+            "params": "config/params.php",
+            "common": "config/common.php",
             "tests": [
                 "$common",
-                "src/config/tests.php"
+                "config/tests.php"
             ]
         }
     },
